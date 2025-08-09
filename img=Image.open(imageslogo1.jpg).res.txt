@@ -1,0 +1,30 @@
+img=Image.open("images/logo1.jpg").resize((250,115))
+imgtk=ImageTk.PhotoImage(img,master=root)
+
+logo_lbl=Label(root,image=imgtk)
+logo_lbl.place(relx=0,rely=0)
+image_animation()
+
+
+def image_animation():
+    index=random.randint(0,4)
+    img=Image.open(list_imgs[index]).resize((250,115))
+    imgtk=ImageTk.PhotoImage(img,master=root) 
+    logo_lbl=Label(root,image=imgtk)
+    logo_lbl.place(relx=0,rely=0)
+    logo_lbl.image=imgtk
+    logo_lbl.after(500,image_animation)
+
+1	yograjmalik1	0K6l	yograjmalik@gmail.com	99990576610	a	ff		10-11-1972	20	Sunday 03-Aug-2025
+2	Sudha Malik	3B3c	yograjmalik@gmail.com	9990576610	1	FF-38 B 	17-05-1972	0	Sunday 03-Aug-2025
+
+
+
+
+Bank_App
+PASSWORD
+stum vqhv zsbc gymx
+
+
+Go to: https://accounts.google.com/Logout
+
